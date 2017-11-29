@@ -1,0 +1,50 @@
+COMPUTER ORGANIZATION PROJECT 1 PART 1 REPORT
+
+digitsFirstNumber: Ýlk sayýnýn noktadan sonrasýnýn kaç basamaklý olduðunu hesaplar.
+
+digitsSecondNumber: Ýkinci sayýnýn noktadan sonrasýnýn kaç basamaklý olduðunu hesaplar.
+
+controlEqu: Çýkan basamak sayýlarýný karþýlaþtýrýr. Eþitse newFormatFirst'e atlar.
+
+bigFirst: Ýlk sayýnýnki büyükse buraya gelir ve basamak sayýsý ikinci sayýyla ayný olana kadar sayýyý 10 ile çarpar.
+
+bigSecond: Ýkinci sayýnýnki büyükse buraya gelir ve basamak sayýsý ilk sayýyla ayný olana kadar sayýyý 10 ile çarpar.
+
+newFormatFirst: ilk sayýnýn virgülden öncesini, virgülden sonraki basamak sayýyý kadar 10 ile çarparak geniþletir. (15.21 -> 1500)
+
+newFormatSecond: ikinci sayýnýn virgülden öncesini, virgülden sonraki basamak sayýyý kadar 10 ile çarparak geniþletir.
+
+sumAllT: Geniþletilen sayýlarla virgülden sonrasýný toplar, sayýlardan noktalarý kaldýrmýþ olur. (15.21 -> 1521)
+Daha sonra bu iki sayýyý birbiri ile toplar.
+
+subAllS: Geniþletilen sayýlarla virgülden sonrasýný toplar, sayýlardan noktalarý kaldýrmýþ olur. (15.21 -> 1521)
+Daha sonra bu iki sayýyý birbirinden çýkartýr.
+
+multAllM: Geniþletilen sayýlarla virgülden sonrasýný toplar, sayýlardan noktalarý kaldýrmýþ olur.(15.21 -> 1521)
+Daha sonra bu iki sayýyý birbiri ile çarpar.
+
+countTotalT: Çýkan sayýnýn basamak sayýsýný bulur.
+
+countTotalS: Çýkan sayýnýn basamak sayýsýný bulur. Çýkarma sonunda ilk basamak 0 ise direk olarak sonuca gider.(resultS2)
+
+countTotalM: Çýkan sayýnýn basamak sayýsýný bulur. Çarpma sonunda ilk basamak 0 ise direk olarak sonuca gider.(resultS2)
+
+countNewFirst: Ýlk gelen sayýnýn virgülden öncesinin basamak sayýsýný hesaplar.
+
+subtCount: Sonucun virgülden önce kaç basamak olmasý gerektiðini bulur(t4)
+
+divFloat: t0'da tutulan toplam sayýyý float yapmak için 10'un kaçýncý kuvvetine bölmesi gerektiðini bulur(t5)
+
+resultT: t0'da tutulan toplam sayýyý t5'e böler. Bölüm virgülden öncesi, kalan virgülden sonrasý olur.
+
+resultS: t0'da tutulan toplam sayýyý t5'e böler. Bölüm virgülden öncesi, kalan virgülden sonrasý olur.
+
+resultS2: Çýkarma iþleminde virgülden öncesi 0 ve virgülden sonrasýnýn negatif olmasý durumunda, virgülden sonrasýnýn negatif olup olmadýðýný kontrol eder.
+
+removeNegative: Virgülden sonrasý negatif ise –1 ile çarparak negatif iþaretini siler.
+
+resultM: t0'da tutulan toplam sayýyý t5'e böler. Bölüm virgülden öncesi, kalan virgülden sonrasý olur.
+
+bePositive: Virgülden sonrasý negatif ise –1 ile çarparak negatif iþaretini siler.
+
+Exit: Programý bitirir. 
